@@ -110,6 +110,29 @@ alias ls='lsd --group-dirs=first'
 alias lsl='lsd -l --group-dirs=first'
 alias lsa='lsd -a --group-dirs=first'
 alias lsla='lsd -la --group-dirs=first'
+
+alias c='clear'
+alias dl='rm -rf'
+alias crc='mkdir'
+alias cra='touch'
+
+alias gc='git commit'
+alias gs='git status'
+alias ga='git add'
+alias gb='git branch'
+alias gp='git push'
+alias gi='git init'
+alias gco='git checkout'
+
+alias cd1='cd ..'
+alias cd2='cd ../..'
+alias cd3='cd ../../..'
+alias cd4='cd ../../../..'
+alias cd6='cd ../../../../..'
+alias cd7='cd ../../../../../..'
+
+alias spi='sudo pacman -S'
+alias spd='sudo pacman -R'
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -121,3 +144,10 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # Following line was automatically added by arttime installer
 export PATH=/home/juanzr/.local/bin:$PATH
+
+# bun completions
+[ -s "/home/juanzr/.bun/_bun" ] && source "/home/juanzr/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
