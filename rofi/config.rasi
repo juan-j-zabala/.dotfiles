@@ -1,0 +1,7 @@
+configuration {
+    modes: "window,run,ssh,drun,emoji";
+    font: "HackNerdFont 10";
+  }
+
+@theme "/DarkBlue.rasi"
+//@theme "/usr/share/rofi/themes/DarkBlue.rasi"
