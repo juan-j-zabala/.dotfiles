@@ -24,9 +24,9 @@
     normal-background:           rgba ( 0, 0, 208, 0 % );
     lightfg:                     rgba ( 88, 104, 117, 100 % );
     selected-normal-background:  rgba ( 219, 223, 188, 100 % );
-    border-color:                rgba ( 112, 0, 240, 100 % );
+    border-color:                rgba ( 255, 255, 255, 100 % );
     spacing:                     2;
-    separatorcolor:              rgba ( 112, 0, 240, 100 % );
+    separatorcolor:              rgba ( 255, 255, 255, 100 % );
     urgent-background:           rgba ( 0, 0, 208, 0 % );
     selected-urgent-background:  rgba ( 255, 129, 127, 100 % );
     alternate-urgent-foreground: @urgent-foreground;
