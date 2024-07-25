@@ -1,5 +1,5 @@
 configuration {
-    modes: "window,run,ssh,drun,emoji";
+    modes: "window,run,ssh,drun";
     font: "HackNerdFont 10";
   }
 
